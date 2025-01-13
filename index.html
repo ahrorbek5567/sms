@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasturlash O'quv Sayti</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="920__95_3276310674.jpg">
+</head>
+<body>
+    <!-- Umumiy HTML kod -->
+    <header>
+        <div class="container">
+            <h1>Dasturlashni O'rganing</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Bosh sahifa</a></li>
+                    <li><a href="https://dasturlash.uz/resources/html">Dasturlash tillari</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Sayt haqida</h2>
+            <p>Bu sayt dasturlashni o'rganmoqchi bo'lganlar uchun mo'ljallangan. Bu yerda siz turli dasturlash tillari va resurslar haqida bilib olishingiz mumkin.</p>
+        </section>
+
+        <section id="languages">
+            <h2>Dasturlash tillari</h2>
+            <div class="languages-list">
+                <div class="language">
+                    <h3>PHP</h3>
+                    <p>PHP eng mashhur dasturlash tili qatoriga kiradi.
+                        PHP Python va JavaScript-ning qattiq raqobatiga duch kelgan bo'lsa ham, bozor hali ham ko'plab PHP dasturchilariga ehtiyoj sezmoqda.</p>
+                </div>
+                <div class="language">
+                    <h3>Python</h3>
+                    <p>Python zamonaviy, qulay va keng qo'llaniladigan dasturlash tili.</p>
+                </div>
+                <div class="language">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript veb-sahifalarga dinamik funksiyalar qo'shadi.</p>
+                </div>
+                <div class="language">
+                    <h3>C++</h3>
+                    <p>C++ yuqori darajadagi dasturlar uchun mo'ljallangan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Resurslar</h2>
+            <ul>
+                <li><a href="https://python.org" target="_blank">Python rasmiy sayti</a></li>
+                <li><a href="https://javascript.info" target="_blank">JavaScript darsliklari</a></li>
+                <li><a href="https://cplusplus.com" target="_blank">C++ uchun manbalar</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3schoolsdan manbalar</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <form action="#">
+                <h2>Aloqa</h2>
+                <label for="name">Ismingiz:</label>
+                <input type="text" id="username" name="name" required placeholder="Ismingiz">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Emailingiz">
+                
+                <label for="message">Xabar:</label>
+                <textarea id="message" name="message" required placeholder="Bizga yuborilishi kerak bo'lgan xabarni kiriting"></textarea><br>
+                <button id="sendbtn" type="submit">Yuborish</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dasturlashni Birga O'rganamiz</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>
